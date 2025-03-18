@@ -65,8 +65,14 @@ int main() {
     float radio, lado, base, altura;
     radio = lado = base = altura = 0.;
 
+<<<<<<< HEAD
     for (int i = 0; i < 3; i++) {  // Solo 3 figuras para prueba rápida
         cout << "Figura para crear: Circulo(1), Cuadrado(2), Triangulo(3): ";
+=======
+    for (int i = 0; i < 5; i++){
+        cout << "Figura para crear Circulo(1), Cuadrado(2), Triangulo(3) o "
+                "Pentagono(4)" << endl;
+>>>>>>> origin/main
         cin >> tipo;
         switch (tipo) {
         case 1:
